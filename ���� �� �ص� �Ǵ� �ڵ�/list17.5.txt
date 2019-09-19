@@ -1,0 +1,7 @@
+const shouldDisplayTranslateButton = (photo, viewer) => {
+  if (!photo.detectedLanguage || !viewer.language) {
+    return false;
+  } else {
+    return (photo.detectedLanguage != viewer.language);
+  }
+}

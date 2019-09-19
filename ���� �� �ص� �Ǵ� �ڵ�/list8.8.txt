@@ -1,0 +1,10 @@
+$ echo "This is private." > private.txt
+$ gsutil cp private.txt gs://my-example-bucket/
+Copying file://private.txt [Content-Type=text/plain]...
+Uploading gs://my-example-bucket/private.txt: 17 B/17 B
+$ curl https://my-example-bucket.storage.googleapis.com/private.txt
+<?xml version='1.0' encoding='UTF-
+8'?><Error><Code>AccessDenied</Code><Message>Access
+➥ denied.</Message><Details>Anonymous users does not have
+➥ storage.objects.get access to object my-example-
+➥ bucket/private.txt.</Details></Error>

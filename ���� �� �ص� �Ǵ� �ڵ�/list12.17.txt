@@ -1,0 +1,23 @@
+$ gcloud beta functions deploy echo \
+> --source=https://source.developers.google.com/projects/your-project-id-here/repos/echo \
+> --trigger-http
+Deploying function (may take a while - up to 2 minutes)...done.
+availableMemoryMb: 256
+entryPoint: echo
+httpsTrigger:
+	url: https://us-central1-your-project-id-here.cloudfunctions.net/echo
+latestOperation: operations/ampnLWNsb3VkLXJlc2VhcmNoL3VzLWNlbnRyYWwxL2VjaG8vendQSGFSVFR2Um8
+name: projects/your-project-id-here/locations/us-central1/functions/echo
+serviceAccount: your-project-id-here@appspot.gserviceaccount.com
+sourceRepository:
+	branch: master
+	deployedRevision: a68a490928b8505f3be1b813388690506c677787
+	repositoryUrl: https://source.developers.google.com/projects/your-project-id-here/repos/echo
+	sourcePath: /
+status: READY
+timeout: 60s
+updateTime: '2017-05-23T12:30:44Z'
+
+$ gcloud beta functions call echo --data '{"data": "This will be echoed!"}'
+executionId: hp34ltbpibrk
+result: '{"echo":"This will be echoed!","logRowCount":"5"}'

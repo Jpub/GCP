@@ -1,0 +1,5 @@
+runtime: python27
+api_version: 1
+service: default
+automatic_scaling:
+	max_concurrent_requests: 10

@@ -1,0 +1,14 @@
+$ echo "This is the second version."> file.txt
+$ gsutil cp file.txt gs://my-versioned-bucket/
+Copying file://file.txt [Content-Type=text/plain]...
+Uploading gs://my-versioned-bucket/file.txt:
+➥ 28 B/28 B
+$ gsutil ls -l gs://my-versioned-bucket
+28 2016-06-21T13:39:11Z gs://my-versioned-bucket/file.txt
+TOTAL: 1 objects, 28 bytes (28 B)
+$ gsutil ls -la gs://my-versioned-bucket
+27 2016-06-21T13:29:38Z gs://my-versioned-
+➥ bucket/file.txt#1466515778205000 metageneration=1
+28 2016-06-21T13:39:11Z gs://my-versioned-
+➥ bucket/file.txt#1466516351939000 metageneration=1
+TOTAL: 2 objects, 55 bytes (55 B)

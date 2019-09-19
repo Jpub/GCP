@@ -1,0 +1,9 @@
+const vision = require('@google-cloud/vision')({
+  projectId: 'your-project-id',
+  keyFilename: 'key.json'
+});
+
+vision.detectText('wine.jpg').then((data) => {
+  const textAnnotations = data[0];
+  console.log('The label says:', textAnnotations[0].replace(/\n/g, ' '));
+});

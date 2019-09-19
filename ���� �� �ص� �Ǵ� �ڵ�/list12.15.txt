@@ -1,0 +1,7 @@
+$ gcloud beta functions call echo --data '{"data": "This will be echoed!"}'
+executionId: o571oa83hdvs
+result: '{"echo":"This will be echoed!","logRowCount":"1"}'
+
+$ gcloud beta functions call echo --data '{"data": "This will be echoed!"}'
+executionId: o571yr41okz0
+result: '{"echo":"This will be echoed!","logRowCount":"2"}'

@@ -1,0 +1,3 @@
+mysql> INSERT INTO todoitems (`todolist_id`, `name`, `done`) VALUES (1, "Milk", 0), (1, "Eggs", 0), (1, "Orange juice", 1), (1, "Egg salad", 0);
+Query OK, 4 rows affected (0.03 sec)
+Records: 4 Duplicates: 0 Warnings: 0

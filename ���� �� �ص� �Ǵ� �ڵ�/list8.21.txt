@@ -1,0 +1,7 @@
+$ gsutil lifecycle get gs://my-versioned-bucket
+gs://my-versioned-bucket/ has no lifecycle configuration.
+$ gsutil lifecycle set lifecycle.json gs://my-versioned-bucket
+Setting lifecycle configuration on gs://my-versioned-bucket/...
+$ gsutil lifecycle get gs://my-versioned-bucket
+{"rule": [{"action": {"type": "Delete"}, "condition": {"isLive":
+➥ false, "numNewerVersions": 1}}]}

@@ -1,0 +1,9 @@
+$ gcloud beta functions delete echo
+Resource
+[projects/your-project-id-here/locations/us-central1/functions/echo]
+will be deleted.
+
+Do you want to continue (Y/n)? y
+
+Waiting for operation to finish...done.
+Deleted [projects/your-project-id-here/locations/us-central1/functions/echo].

@@ -1,0 +1,8 @@
+$ gcloud dns record-sets list --zone mydomain-dot-com
+NAME 				TYPE 	TTL 	DATA
+mydomain.com. 		NS 		86400 	ns1.mydomain.com.
+mydomain.com. 		SOA 	86400 	ns-cloud-b1.googledomains.com.
+hostmaster.mydomain.com. 2002022401 10800 15 604800 10800
+docs.mydomain.com. 	CNAME 86400 new.ghs.google.com.
+ns1.mydomain.com. 	A 		86400 	10.0.0.91
+www.mydomain.com. 	A 		86400 	0.0.0.91,10.0.0.92s

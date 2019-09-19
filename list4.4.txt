@@ -1,0 +1,9 @@
+mysql> SELECT * FROM todolists;
++----+--------------------+
+| id | name |
++----+--------------------+
+| 1 | Groceries |
+| 2 | Christmas shopping |
+| 3 | Vacation plans |
++----+--------------------+
+3 rows in set (0.02 sec)

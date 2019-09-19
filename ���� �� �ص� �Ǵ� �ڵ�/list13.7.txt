@@ -1,0 +1,8 @@
+$ gcloud dns record-sets import master.mydomain.com --zone mydomain-dot-com
+> --delete-all-existing --replace-origin-ns --zone-file-format
+Imported record-sets from [master.mydomain.com] into managed-zone [mydomaindot-
+com].
+Created [https://www.googleapis.com/dns/v1/projects/your-project-id-here/
+managedZones/mydomain-dot-com/changes/8].
+ID 	START_TIME 					STATUS
+8 	2017-02-15T14:08:18.032Z 	pending

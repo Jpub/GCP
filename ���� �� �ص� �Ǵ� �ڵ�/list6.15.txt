@@ -1,0 +1,1 @@
+SELECT amount_cents FROM paychecks ORDER BY amount_cents

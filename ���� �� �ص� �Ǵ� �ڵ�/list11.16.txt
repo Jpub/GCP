@@ -1,0 +1,5 @@
+runtime: python27
+api_version: 1
+service: default
+manual_scaling:
+	instances: 10

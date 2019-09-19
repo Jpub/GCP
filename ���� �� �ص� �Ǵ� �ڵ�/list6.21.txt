@@ -1,0 +1,18 @@
+const printNameAndStartDateFromTransaction2 = () => {
+  const startDateQuery = {
+    keys: ['1'],
+    columns: ['name', 'start_date']
+  };
+  return txn2.read('employees', startDateQuery).then((results) => {
+    console.log('txn2:', results[0][0]);
+  });
+}
+
+/* ... */
+
+printCommittedEmployeeData()
+  .then(printNameFromTransaction1)
+  .then(printNameAndStartDateFromTransaction2)
+  .then(changeNameFromTransaction1)
+  .then(changeStartDateFromTransaction2)
+  .then(printCommittedEmployeeData);

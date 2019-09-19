@@ -1,0 +1,4 @@
+$ gcloud spanner databases ddl update test-database
+  --instance=test-instance
+  --ddl="ALTER TABLE employees ALTER COLUMN name STRING(MAX) NOT NULL"
+DDL updating...done.

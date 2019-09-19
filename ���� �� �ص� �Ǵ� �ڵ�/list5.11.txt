@@ -1,0 +1,2 @@
+$ gsutil du -sh gs://my-data-export/export-1
+32.2 KiB gs://my-data-export/export-1

@@ -1,0 +1,1 @@
+seconds consumed * ($0.0000100 * GHz configured + $0.0000025 * GB configured)

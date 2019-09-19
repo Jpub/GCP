@@ -1,0 +1,7 @@
+CREATE TABLE `todoitems` (
+ `id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ `todolist_id` INT(11) NOT NULL REFERENCES `todolists`.`id`,
+ `name` varchar(255) NOT NULL,
+ `done` BOOL NOT NULL DEFAULT '0'
+ ) ENGINE = InnoDB;
+Query OK, 0 rows affected (0.03 sec)

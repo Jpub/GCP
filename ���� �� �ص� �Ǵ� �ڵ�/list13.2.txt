@@ -1,0 +1,27 @@
+$ dig demo.mydomain.com @ns-cloud-b1.googledomains.com
+
+# ... More information here ...
+
+;; QUESTION SECTION:
+;demo.mydomain.com. IN A
+
+;; ANSWER SECTION:
+demo.mydomain.com. 300 IN A 192.168.0.1
+demo.mydomain.com. 300 IN A 192.168.0.2
+
+As you can see, our two entries (192.168.0.1 and 192.168.0.2) are both there in the
+“ANSWER” section.
+	Note that if you were to ask globally for this entry (without the special @ns-cloudb1.
+googledomains.com part of the command), you would see no answers resulting
+from the query:
+
+$ dig demo.mydomain.com
+
+# ... More information here ...
+
+;; QUESTION SECTION:
+;demo.mydomain.com. IN A
+
+;; AUTHORITY SECTION:
+mydomain.com. 1799 IN SOA ns1.mydomain.com.
+	hostmaster.mydomain.com. 1335787408 16384 2048 1048576 2560

@@ -1,0 +1,9 @@
+$ curl https://my-public-bucket.storage.googleapis.com/public.txt
+<?xml version='1.0' encoding='UTF-8'?><Error>
+➥ <Code>AccessDenied</Code><Message>Access denied.</Message>
+➥ <Details>Anonymous users does not have storage.objects.get
+➥ access to object my-public-bucket/public.txt.</Details></Error>
+$ gsutil acl set public-read gs://my-public-bucket/public.txt
+Setting ACL on gs://my-public-bucket/public.txt...
+$ curl https://my-public-bucket.storage.googleapis.com/public.txt
+This should be public!

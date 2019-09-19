@@ -1,0 +1,6 @@
+runtime: python27
+api_version: 1
+service: default
+automatic_scaling:
+	min_pending_latency: 5s
+	max_pending_latency: 10s

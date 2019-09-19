@@ -1,0 +1,15 @@
+const handleIncomingProfilePhoto = (req, res) => {
+  const apiResponse = {};
+  const url = req.user.username + '-profile-' + req.files.photo.name;
+  return uploadToCloudStorage(url, req.files.photo)
+    .then(() => {
+      apiResponse.url = url;
+      return imageHasFace(url);
+    })
+    .then((hasFace) => {
+      apiResponse.hasFace = hasFace;
+    })
+    .then(() => {
+      res.send(apiResponse);
+    });
+}

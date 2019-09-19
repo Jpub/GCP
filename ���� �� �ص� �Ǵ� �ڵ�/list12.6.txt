@@ -1,0 +1,3 @@
+$ gcloud beta functions call echo --data '{"data": "This will be echoed!"}'
+executionId: 707s1yel116c
+result: '{"from":"Cloud Functions","echo":"This will be echoed!"}'

@@ -1,0 +1,5 @@
+> { desc: 'dog', mid: '/m/0bt9lr', score: 96.969336 }
+{ desc: 'mammal', mid: '/m/04rky', score: 92.070323 }
+{ desc: 'vertebrate', mid: '/m/09686', score: 89.664793 }
+{ desc: 'setter', mid: '/m/039ndd', score: 69.060057 }
+{ desc: 'dog like mammal', mid: '/m/01z5f', score: 68.510407 }

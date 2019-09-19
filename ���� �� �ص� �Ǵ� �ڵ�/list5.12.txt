@@ -1,0 +1,3 @@
+$ gsutil ls gs://my-data-export/export-1
+gs://my-data-export/export-1/export-1.overall_export_metadata
+gs://my-data-export/export-1/all_namespaces/

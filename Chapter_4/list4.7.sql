@@ -1,0 +1,1 @@
+SELECT `todoitems`.`name` from `todoitems`, `todolists` WHERE `todolists`.`name` = "Groceries" AND `todoitems`.`todolist_id` = `todolists`.`id` AND `todoitems`.`done` = 0 AND SOUNDEX(`todoitems`.`name`) LIKE CONCAT(SUBSTRING(SOUNDEX("egg"), 1,2), "%");

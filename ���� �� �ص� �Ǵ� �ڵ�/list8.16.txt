@@ -1,0 +1,4 @@
+$ gsutil ls -la gs://my-versioned-bucket
+27 2016-06-21T13:29:38Z gs://my-versioned-
+➥ bucket/file.txt#1466515778205000 metageneration=1
+TOTAL: 1 objects, 27 bytes (27 B)

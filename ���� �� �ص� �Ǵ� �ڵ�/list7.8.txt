@@ -1,0 +1,2 @@
+$ gcloud dataproc clusters create my-export-cluster --zone us-central1-c --single-node
+$ gcloud dataproc jobs submit hadoop --cluster my-export-cluster --jar target/wordcount-mapreduce-0-SNAPSHOT-jar-with-dependencies.jar -- export-table todo gs://my-export-bucket/todo-export-2016-11-01

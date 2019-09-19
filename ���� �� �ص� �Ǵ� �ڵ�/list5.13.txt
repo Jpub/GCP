@@ -1,0 +1,14 @@
+$ gcloud beta datastore import gs://my-data-export/export-1/export-1.overall_export_metadata
+Waiting for [projects/your-project-id-here/operations/
+AiA4NjUwODEzOTIJGnRsdWFmZWQHEmxhcnRuZWNzdS1zYm9qLW5pbWRhFAosEg] to
+finish...done.
+metadata:
+'@type':
+type.googleapis.com/google.datastore.admin.v1beta1.ImportEntitiesMetadata
+common:
+operationType: IMPORT_ENTITIES
+startTime: '2018-01-16T16:26:17.964040Z'
+state: PROCESSING
+inputUrl: gs://my-data-export/export-1/export-1.overall_export_metadata
+name: projects/your-project-id-here/operations/
+AiA4NjUwODEzOTIJGnRsdWFmZWQHEmxhcnRuZWNzdS1zYm9qLW5pbWRhFAosEg

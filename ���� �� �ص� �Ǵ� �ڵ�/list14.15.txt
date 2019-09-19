@@ -1,0 +1,6 @@
+const imageHasFace = (imageUrl) => {
+  return vision.detectFaces(imageUrl).then((data) => {
+    const faces = data[0];
+    return (faces.length == 0);
+  });
+}

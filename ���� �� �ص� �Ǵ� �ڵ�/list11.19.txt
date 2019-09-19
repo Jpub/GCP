@@ -1,0 +1,4 @@
+runtime: python27
+api_version: 1
+service: default
+instance_class: F2

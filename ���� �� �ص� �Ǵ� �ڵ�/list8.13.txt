@@ -1,0 +1,12 @@
+$ gsutil logging get gs://my-example-bucket
+gs://my-example-bucket/ has no logging configuration.
+$ gsutil mb -l US -c multi_regional gs://my-example-bucket-logs
+Creating gs://my-example-bucket-logs/...
+$ gsutil acl ch -g cloud-storage-analytics@google.com:W gs://my-example-bucket-logs
+$ gsutil logging set on -b gs://my-example-bucket-logs -o example-prefix gs://my-example-bucket
+Enabling logging on gs://my-example-bucket/...
+$ gsutil logging get gs://my-example-bucket
+{
+	"logBucket": "my-example-bucket-logs",
+	"logObjectPrefix": "example-prefix"
+}

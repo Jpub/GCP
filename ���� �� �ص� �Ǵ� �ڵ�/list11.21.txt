@@ -1,0 +1,6 @@
+runtime: nodejs
+env: flex
+service: default
+resources:
+	cpu: 2
+	memory_gb: 4.0

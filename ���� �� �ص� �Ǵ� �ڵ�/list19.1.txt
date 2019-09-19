@@ -1,0 +1,5 @@
+[
+	{"name": "name", "type": "STRING", "mode": "REQUIRED"},
+	{"name": "age", "type": "INTEGER", "mode": "NULLABLE"},
+	{"name": "birthdate", "type": "TIMESTAMP", "mode": "NULLABLE"}
+]

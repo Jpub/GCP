@@ -1,0 +1,15 @@
+$ gsutil ls gs://your-ml-bucket-name-here/census
+gs://your-ml-bucket-name-here/census/
+gs://your-ml-bucket-name-here/census/checkpoint
+gs://your-ml-bucket-name-here/census/events.out.tfevents.1509708579.master-88f54a3b38-0-tlmnd
+gs://your-ml-bucket-name-here/census/graph.pbtxt
+gs://your-ml-bucket-name-here/census/model.ckpt-4300.data-00000-of-00003
+...
+gs://your-ml-bucket-name-here/census/eval/
+gs://your-ml-bucket-name-here/census/export/
+gs://your-ml-bucket-name-here/census/packages/
+
+$ gsutil ls gs://your-ml-bucket-name-here/census/export
+gs://your-ml-bucket-name-here/census/export/
+gs://your-ml-bucket-name-here/census/export/saved_model.pb
+gs://your-ml-bucket-name-here/census/export/variables/

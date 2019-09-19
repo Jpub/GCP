@@ -1,0 +1,6 @@
+$ mkdir data
+$ gsutil -m cp gs://cloudml-public/census/data/* data/
+Copying gs://cloudml-public/census/data/adult.data.csv...
+Copying gs://cloudml-public/census/data/adult.test.csv...
+/ [2/2 files][ 5.7 MiB/ 5.7 MiB] 100% Done
+Operation completed over 2 objects/5.7 MiB.

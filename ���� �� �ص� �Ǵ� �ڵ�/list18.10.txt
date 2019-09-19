@@ -1,0 +1,17 @@
+$ gcloud ml-engine jobs submit prediction prediction1 --model census --version v1 --data-format TEXT --region us-central1 --input-paths gs://your-ml-bucket-name-here/data.json --output-path gs://your-ml-bucket-name-here/prediction1-output
+
+$ gsutil ls gs://your-ml-bucket-name-here/prediction1-output
+gs://your-ml-bucket-name-here/prediction1-output/prediction.errors_stats-00000-of-00001
+gs://your-ml-bucket-name-here/prediction1-output/prediction.results-00000-of-00001
+
+$ gsutil cat gs://your-ml-bucket-name-here/prediction1-output/prediction.results-00000-of-00001
+{"confidence": 0.8251623511314392, "predictions": " <=50K"}
+{"confidence": 0.7894495725631714, "predictions": " <=50K"}
+{"confidence": 0.749710738658905, "predictions": " <=50K"}
+{"confidence": 0.7241880893707275, "predictions": " <=50K"}
+{"confidence": 0.7074624300003052, "predictions": " <=50K"}
+{"confidence": 0.7138040065765381, "predictions": " <=50K"}
+{"confidence": 0.7246076464653015, "predictions": " <=50K"}
+{"confidence": 0.7297274470329285, "predictions": " <=50K"}
+{"confidence": 0.7511150240898132, "predictions": " <=50K"}
+{"confidence": 0.784980833530426, "predictions": " <=50K"}

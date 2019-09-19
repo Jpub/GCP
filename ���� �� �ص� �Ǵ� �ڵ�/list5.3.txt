@@ -1,0 +1,5 @@
+{
+	"__key__": "Company:apple.com:Employee:jonyive",
+	"name": "Jony Ive",
+	"favoriteColor": "blue"
+}

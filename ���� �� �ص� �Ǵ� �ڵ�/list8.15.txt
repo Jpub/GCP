@@ -1,0 +1,7 @@
+$ gsutil versioning get gs://my-versioned-bucket
+gs://my-versioned-bucket: Enabled
+$ echo "This is the first version!"> file.txt
+$ gsutil cp file.txt gs://my-versioned-bucket/
+Copying file://file.txt [Content-Type=text/plain]...
+Uploading gs://my-versioned-bucket/file.txt:
+➥ 27 B/27 B

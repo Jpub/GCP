@@ -1,0 +1,21 @@
+$ gcloud beta functions deploy echo --source=./echo/ \
+--trigger-http --stage-bucket=my-cloud-functions
+Copying file:///tmp/tmpgFmeR6/fun.zip [Content-Type=application/zip]...
+/ [1 files][ 337.0 B/ 337.0 B]
+Operation completed over 1 objects/337.0 B.
+Deploying function (may take a while - up to 2 minutes)...done.
+availableMemoryMb: 256
+entryPoint: echo
+httpsTrigger:
+	url: https://us-central1-your-project-id-here.cloudfunctions.net/echo
+latestOperation: operations/ampnLWNsb3VkLXJlc2VhcmNoL3VzLWNlbnRyYWwxL2VjaG8vUDB2SUM2dzhDeG8
+name: projects/your-project-id-here/locations/us-central1/functions/echo
+serviceAccount: your-project-id-here@appspot.gserviceaccount.com
+sourceArchiveUrl: gs://my-cloud-functions/us-central1-echo-afkbzeghcygu.zip
+status: READY
+timeout: 60s
+updateTime: '2017-05-22T22:17:27Z'
+
+$ gcloud beta functions call echo --data='{"data": "Test!"}'
+executionId: nwluxpwmef9l
+result: '{"from":"Cloud Functions","version":1,"echo":"Test!"}'

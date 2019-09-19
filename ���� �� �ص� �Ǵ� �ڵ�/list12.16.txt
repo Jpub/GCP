@@ -1,0 +1,24 @@
+$ git init
+Initialized empty Git repository in /home/jjg/echo/.git/
+
+$ git remote add google \
+	https://source.developers.google.com/projects/your-project-id-here/repos/echo
+
+$ git config credential.helper gcloud.sh
+
+$ git add index.js package.json
+$ git commit -m "Initial commit of echo package"
+[master (root-commit) a68a490] Initial commit of echo package
+2 files changed, 60 insertions(+)
+create mode 100644 index.js
+create mode 100644 package.json
+
+$ git push --all google
+Counting objects: 4, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 967 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: Approximate storage used: 57.1KiB/8.0GiB (this repository 967.0B)
+To https://source.developers.google.com/projects/your-project-id-here/repos/echo
+* [new branch] master -> master

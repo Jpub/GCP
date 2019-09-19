@@ -1,0 +1,5 @@
+runtime: nodejs
+env: flex
+service: default
+resources:
+	disk_size_gb: 20

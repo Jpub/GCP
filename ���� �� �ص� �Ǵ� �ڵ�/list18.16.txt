@@ -1,0 +1,8 @@
+$ gcloud ml-engine jobs describe prediction1
+# ... More information here ...
+predictionOutput:
+	nodeHours: 0.24
+	outputPath: gs://your-ml-bucket-name-here/prediction1-output
+	predictionCount: '10'
+startTime: '2017-11-03T14:15:41Z'
+state: SUCCEEDED

@@ -1,0 +1,4 @@
+$ gsutil cp data.json gs://your-ml-bucket-name-here/data.json
+Copying file://data.json [Content-Type=application/json]...
+/ [1 files][ 3.1 KiB/ 3.1 KiB]
+Operation completed over 1 objects/3.1 KiB.

@@ -1,0 +1,2 @@
+$ gcloud dns record-sets changes describe 8 --zone mydomain-dot-com | grep status
+status: done

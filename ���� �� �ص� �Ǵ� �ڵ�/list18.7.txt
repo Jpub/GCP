@@ -1,0 +1,1 @@
+$ gcloud ml-engine jobs submit training census1 --stream-logs --runtime-version 1.2 --job-dir gs://your-ml-bucket-name-here/census --module-name trainer.task --package-path trainer/ --region us-central1 -- --train-files gs://your-ml-bucket-name-here/data/adult.data.csv --eval-files gs://your-ml-bucket-name-here/data/adult.test.csv --train-steps 10000 --eval-steps 500

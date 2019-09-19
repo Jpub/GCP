@@ -1,0 +1,7 @@
+$ curl -S https://storage.googleapis.com/my-example-bucket/private.txt
+<?xml version='1.0' encoding='UTF-
+8'?><Error><Code>AccessDenied</Code><Message>Access
+denied.</Message><Details>Anonymous users does not have storage.objects.get
+access to object my-example-bucket/private.txt.</Details></Error>
+curl -S "https://storage.googleapis.com/my-examplebucket/private.txt?GoogleAccessId=gcs-signer@your-projectid.iam.gserviceaccount.com&Expires=1466507255&Signature=ZBufnbBAQOz1oS8ethq%2B5l9C7YmVHVbNM%2F%2B43z9XDcsTgpWoCbAMmJ2ZhugI%2FZWE665mxD%2BJL%2BJzVSy7BAD7qFWTok0vDn5a0sq%2Be78nCJmgE0lDTERQpnXSvbc0htOyVlFr8p3StKU0ST1wKoNIcehfRXWD45fEMMFmchPhkI8M8ASwaI%2FVNZOXp5HXtZvZacO47NTClB5k9uKBLlMEg65RAbBTt5huHRGO6XkYgnyKDY87rs18HSEL4dMauUZpaYC4ZPb%2FSBpWAMOneaXpTHlh4cKXXNlrQ03MUf5w3sKKJBsUWBl0xoAsf3HpdnnrFjW5sUZUQu1RRTqHyztc4Q%3D%3D"
+This is private.

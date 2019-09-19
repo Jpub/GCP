@@ -1,0 +1,21 @@
+$ dig instance-4-us-central1-f.mydomain.com @ns-cloud-b1.googledomains.com
+
+; <<>> DiG 9.9.5-9+deb8u9-Debian <<>> instance-4-us-central1-f.mydomain.com
+@ns-cloud-b1.googledomains.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60458
+;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;instance-4-us-central1-f.mydomain.com. IN A
+
+;; ANSWER SECTION:
+instance-4-us-central1-f.mydomain.com. 86400 IN A 104.197.171.58
+;; Query time: 33 msec
+;; SERVER: 216.239.32.107#53(216.239.32.107)
+;; WHEN: Fri Feb 17 11:42:36 UTC 2017
+;; MSG SIZE rcvd: 82

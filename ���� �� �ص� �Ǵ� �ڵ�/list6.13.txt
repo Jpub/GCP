@@ -1,0 +1,4 @@
+$ gcloud spanner databases ddl update test-database
+  --instance=test-instance
+  --ddl="CREATE INDEX employees_by_name ON employees (name)"
+DDL updating...done.

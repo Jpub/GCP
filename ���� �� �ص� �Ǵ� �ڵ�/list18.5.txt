@@ -1,0 +1,9 @@
+$ gsutil -m cp -R data gs://your-ml-bucket-name-here/data
+Copying file://data/adult.data.csv [Content-Type=text/csv]...
+Copying file://data/adult.test.csv [Content-Type=text/csv]...
+- [2/2 files][ 5.7 MiB/ 5.7 MiB] 100% Done
+Operation completed over 2 objects/5.7 MiB.
+
+$ gsutil ls gs://your-ml-bucket-name-here/data
+gs://your-ml-bucket-name-here/data/adult.data.csv
+gs://your-ml-bucket-name-here/data/adult.test.csv

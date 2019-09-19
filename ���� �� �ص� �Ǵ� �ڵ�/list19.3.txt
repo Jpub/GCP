@@ -1,0 +1,17 @@
+[
+	{
+		"mode": "REQUIRED",
+		"name": "pickup_time",
+		"type": "TIMESTAMP"
+	},
+	{
+		"mode": "REQUIRED",
+		"name": "dropoff_time",
+		"type": "TIMESTAMP"
+	},
+	{
+		"mode": "REQUIRED",
+		"name": "fare_amount",
+		"type": "FLOAT"
+	}
+]

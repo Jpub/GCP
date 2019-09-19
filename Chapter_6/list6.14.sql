@@ -1,0 +1,1 @@
+CREATE INDEX employees_by_name ON employees (name) STORING (start_date)

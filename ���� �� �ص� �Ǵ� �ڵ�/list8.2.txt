@@ -1,0 +1,6 @@
+$ echo "This is my first file!" > my_first_file.txt
+$ cat my_first_file.txt
+This is my first file!
+$ gsutil cp my_first_file.txt gs://my-first-bucket-jjg/
+Copying file://my_first_file.txt [Content-Type=text/plain]...
+Uploading gs://my-first-bucket-jjg/my_first_file.txt: 23 B/23 B

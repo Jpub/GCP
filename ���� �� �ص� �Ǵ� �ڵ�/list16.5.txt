@@ -1,0 +1,8 @@
+const config = {
+  encoding: 'FLAC',
+  sampleRate: 16000,
+  verbose: true,
+  speechContext: { phrases: [
+    "the Brooklynne Bridge"
+  ]}
+};

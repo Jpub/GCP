@@ -1,0 +1,1 @@
+INSERT INTO todoitems (`todolist_id`, `name`, `done`) VALUES (1, "Milk", 0), (1, "Eggs", 0), (1, "Orange juice", 1), (1, "Egg salad", 0);

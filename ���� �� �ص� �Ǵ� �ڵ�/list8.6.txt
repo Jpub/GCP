@@ -1,0 +1,33 @@
+[
+	{
+"entity": "project-owners-243576136738",
+"projectTeam": {
+"projectNumber": "243576136738",
+"team": "owners"
+		},
+"role": "OWNER"
+	},
+	{
+"entity": "project-editors-243576136738",
+"projectTeam": {
+"projectNumber": "243576136738",
+"team": "editors"
+		},
+"role": "OWNER"
+	},
+	{
+"entity": "project-viewers-243576136738",
+"projectTeam": {
+"projectNumber": "243576136738",
+"team": "viewers"
+		},
+"role": "READER"
+	},
+	{
+"entity": "user-
+		00b4903a978dcd75fbff509edb5b5658a3c6972b0ef52feca6618b156ced45d8",
+"entityId":
+		"00b4903a978dcd75fbff509edb5b5658a3c6972b0ef52feca6618b156ced45d8",
+"role": "OWNER"
+	}
+]

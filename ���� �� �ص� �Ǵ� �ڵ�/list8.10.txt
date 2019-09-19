@@ -1,0 +1,13 @@
+$ gsutil signurl -m GET -d 30m key.json gs://my-example-bucket/private.txt
+URL HTTP Method Expiration Signed URL
+gs://my-example-bucket/private.txt GET 2016-06-21 07:07:35
+https://storage.googleapis.com/my-examplebucket/
+private.txt?GoogleAccessId=gcs-signer@your-projectid.
+iam.gserviceaccount.com&Expires=1466507255&Signature=
+➥ ZBufnbBAQOz1oS8ethq%2B5l9C7YmVHVbNM%2F%2B43z9XDcsTgpWoC
+➥ bAMmJ2ZhugI%2FZWE665mxD%2BJL%2BJzVSy7BAD7qFWTok0vDn5a0
+➥ sq%2Be78nCJmgE0lDTERQpnXSvbc0htOyVlFr8p3StKU0ST1wKoNIceh
+➥ fRXWD45fEMMFmchPhkI8M8ASwaI%2FVNZOXp5HXtZvZacO47NTClB5k9
+➥ uKBLlMEg65RAbBTt5huHRGO6XkYgnyKDY87rs18HSEL4dMauUZpaYC4Z
+➥ Pb%2FSBpWAMOneaXpTHlh4cKXXNlrQ03MUf5w3sKKJBsUWBl0xoAsf3H
+➥ pdnnrFjW5sUZUQu1RRTqHyztc4Q%3D%3D

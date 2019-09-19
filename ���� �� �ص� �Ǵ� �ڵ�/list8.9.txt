@@ -1,0 +1,2 @@
+$ gsutil acl ch -u gcs-signer@your-project-id.iam.gserviceaccount.com:R gs://my-example-bucket/private.txt
+Updated ACL on gs://my-example-bucket/private.txt

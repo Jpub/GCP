@@ -1,0 +1,1 @@
+$ npm install --save uuid @google-cloud/spanner

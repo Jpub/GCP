@@ -1,0 +1,6 @@
+$ gsutil mb gs://my-public-bucket
+Creating gs://my-public-bucket/...
+$ echo "This should be public" > public.txt
+$ gsutil cp public.txt gs://my-public-bucket
+Copying file://public.txt [Content-Type=text/plain]...
+Uploading gs://my-public-bucket/public.txt:

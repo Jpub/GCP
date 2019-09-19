@@ -1,0 +1,9 @@
+$ git clone https://github.com/GoogleCloudPlatform/cloudml-samples
+Cloning into 'cloudml-samples'...
+remote: Counting objects: 1065, done.
+remote: Compressing objects: 100% (70/70), done.
+remote: Total 1065 (delta 45), reused 59 (delta 19), pack-reused 967
+Receiving objects: 100% (1065/1065), 431.81 KiB | 11.07 MiB/s, done.
+Resolving deltas: 100% (560/560), done.
+
+$ cd cloudml-samples/census/tensorflowcore/

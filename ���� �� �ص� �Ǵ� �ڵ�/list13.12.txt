@@ -1,0 +1,50 @@
+> zone.getRecords().then(console.log)
+Promise { <pending> }
+> [ [   Record {
+		zone_: [Object],
+		type: 'NS',
+		metadata: [Object],
+		kind: 'dns#resourceRecordSet',
+		name: 'mydomain.com.',
+		ttl: 86400,
+		data: [Object] },
+	Record {
+		zone_: [Object],
+		type: 'SOA',
+		metadata: [Object],
+		kind: 'dns#resourceRecordSet',
+		name: 'mydomain.com.',
+		ttl: 86400,
+		data: [Object] },
+	Record {
+		zone_: [Object],
+		type: 'CNAME',
+		metadata: [Object],
+		kind: 'dns#resourceRecordSet',
+		name: 'docs.mydomain.com.',
+		ttl: 86400,
+		data: [Object] },
+	Record {
+		zone_: [Object],
+		type: 'A',
+		metadata: [Object],
+		kind: 'dns#resourceRecordSet',
+		name: 'instance-4-us-central1-f.mydomain.com.',
+		ttl: 86400,
+		data: [Object] },
+	Record {
+		zone_: [Object],
+		type: 'A',
+		metadata: [Object],
+		kind: 'dns#resourceRecordSet',
+		name: 'ns1.mydomain.com.',
+		ttl: 86400,
+		data: [Object] },
+	Record {
+		zone_: [Object],
+		type: 'A',
+		metadata: [Object],
+		kind: 'dns#resourceRecordSet',
+		name: 'www.mydomain.com.',
+		ttl: 86400,
+		data: [Object] } ] ]

@@ -1,0 +1,4 @@
+$ curl -d '{"data": "This will be echoed!"}' \
+-H "Content-Type: application/json" \
+"https://us-central1-your-project-id-here.cloudfunctions.net/echo"
+{"from":"Cloud Functions","echo":"This will be echoed!"}

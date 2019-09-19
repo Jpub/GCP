@@ -1,0 +1,9 @@
+runtime: nodejs
+env: flex
+service: default
+automatic_scaling:
+min_num_instances: 3
+max_num_instances: 8
+cool_down_period_sec: 300 # 5 minutes * 60 = 300
+cpu_utilization:
+	target_utilization: 0.7

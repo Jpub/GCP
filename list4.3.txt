@@ -1,0 +1,5 @@
+mssql> INSERT INTO todolists (`name`) VALUES ("Groceries"),
+ ("Christmas shopping"),
+ ("Vacation plans");
+Query OK, 3 rows affected (0.02 sec)
+Records: 3 Duplicates: 0 Warnings: 0

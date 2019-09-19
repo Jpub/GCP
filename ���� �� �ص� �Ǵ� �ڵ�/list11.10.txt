@@ -1,0 +1,16 @@
+FROM ubuntu:16.04
+
+RUN apt-get update && apt-get install -y apache2
+
+# Set Apache to listen on port 8080
+# instead of 80 (what App Engine expects)
+RUN sed -i 's/Listen 80/Listen 8080/' /etc/apache2/ports.conf
+RUN sed -i 's/:80/:8080/' /etc/apache2/sites-enabled/000-default.conf
+
+# Add our content
+COPY hello.html /var/www/html/index.html
+RUN chmoda+r /var/www/html/index.html
+
+EXPOSE 8080
+
+CMD ["apachectl", "-D", "FOREGROUND"]

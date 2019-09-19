@@ -1,0 +1,9 @@
+$ gcloud ml-engine jobs describe census1
+# ... More information here ...
+trainingInput:
+	# ...
+	region: us-central1
+	runtimeVersion: '1.2'
+	scaleTier: BASIC
+trainingOutput:
+	consumedMLUnits: 1.67

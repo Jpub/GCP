@@ -1,0 +1,6 @@
+$ gcloud ml-engine models list
+NAME DEFAULT_VERSION_NAME
+census
+
+$ gcloud ml-engine versions list --model=census
+Listed 0 items.

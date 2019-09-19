@@ -1,0 +1,9 @@
+$ tree
+.
+└── echo
+	└── index.js
+
+1 directory, 1 file
+
+$ gcloud beta functions deploy echo --source=./echo/ \
+--trigger-http --stage-bucket=my-cloud-functions

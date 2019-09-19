@@ -1,0 +1,1 @@
+$ gcloud ml-engine jobs submit prediction prediction2workers --model census --version v1 --data-format TEXT --region us-central1 --max-worker-count 2 --input-paths gs://your-ml-bucket-name-here/data.json --output-path gs://your-ml-bucket-name-here/prediction2workers-output

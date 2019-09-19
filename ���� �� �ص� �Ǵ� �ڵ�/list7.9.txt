@@ -1,0 +1,4 @@
+$ gsutil ls gs://my-export-bucket/todo-export-2016-11-01/
+gs://my-export-bucket/todo-export-2016-11-01/
+gs://my-export-bucket/todo-export-2016-11-01/_SUCCESS
+gs://my-export-bucket/todo-export-2016-11-01/part-m-00000

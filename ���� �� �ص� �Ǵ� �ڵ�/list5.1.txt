@@ -1,0 +1,5 @@
+{
+	"__key__": "Employee:1",
+	"name": "James Bond",
+	"favoriteColor": "blue"
+}

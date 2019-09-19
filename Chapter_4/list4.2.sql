@@ -1,0 +1,6 @@
+use todo;
+
+CREATE TABLE `todolists` (
+ `id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ `name` VARCHAR(255) NOT NULL
+ ) ENGINE = InnoDB;

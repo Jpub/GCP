@@ -1,0 +1,8 @@
+$ gcloud beta functions deploy echo --source=./echo/ \
+--trigger-http --stage-bucket=my-cloud-functions
+
+# ... Lots of information here ...
+
+$ gcloud beta functions call echo --data='{"data": "Echo!"}'
+executionId: r92y6w489inj
+result: '{"from":"Cloud Functions","christmas2016":"5 months ago","echo":"Echo!"}'
